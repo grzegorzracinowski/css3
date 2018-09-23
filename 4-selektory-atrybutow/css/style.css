@@ -1,0 +1,24 @@
+[title] {
+    color:red ;
+}
+
+[title="About me"] {
+    color: orange ;
+}
+
+[title~="Container"] {
+    color:green ;
+}
+
+[title*=" tainer "] {
+    background-color: lime;
+}
+
+[title^="More"] {
+    color: violet;
+}
+
+[title$="skils"] {
+    background-color: cadetblue;
+}
+

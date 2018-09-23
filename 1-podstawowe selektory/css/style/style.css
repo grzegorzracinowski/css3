@@ -1,17 +1,31 @@
 p {
 color: orange;
 }
-
 #kasia {
 color: pink;
 }
-
+div.lorak {
+    color: aqua;
+}
 .lorak {
 color: blue;
 }
+ul a {
+    color: red;
+}
+li > a {
+  background-color: beige;
+}
 
-a > span {
-background-color: beige;
-} 
+a > spam {
+    background-color: lightgreen;
+}
 
-li#pierwszy ~ li {}
+li#pierwszy ~ li {
+   background-color: grey;
+}
+
+
+li#pierwszy + li {
+    background-color: brown;
+}
