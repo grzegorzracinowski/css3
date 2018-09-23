@@ -1,0 +1,17 @@
+p {
+color: orange;
+}
+
+#kasia {
+color: pink;
+}
+
+.lorak {
+color: blue;
+}
+
+a > span {
+background-color: beige;
+} 
+
+li#pierwszy ~ li {}
