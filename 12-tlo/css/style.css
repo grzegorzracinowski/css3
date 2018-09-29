@@ -8,13 +8,14 @@ p {
     margin-bottom: 25px;
 }
 .bg {
-    background-color: rgba(147,255,67,1;);
+  /*
+    background-color: rgba(147,255,67,1);
     background-image: url(../img/akademia108_logo_mob.png);
     background-repeat: no-repeat;
     background-position: 100px 50px;
-    background-size: cover;
-    
-    
+    background-size: 500px auto;
+*/
+    background: rgba(147,255,67,1) url(../img/akademia108_logo_mob) no-repeat 100px 50px; background-size: 500px auto ;
         
 
 }
