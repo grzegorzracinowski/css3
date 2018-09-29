@@ -1,24 +1,60 @@
 [title] {
-    color:red ;
+    color: red;
+}
+
+
+[title="Main page"] {
+    color: orange;
 }
 
 [title="About me"] {
-    color: orange ;
+    color: green;
+
 }
 
-[title~="Container"] {
-    color:green ;
+[title="Section"] {
+    color: grey;
 }
 
-[title*=" tainer "] {
-    background-color: lime;
+[title="Collection"] {
+    color: bisque;
 }
 
-[title^="More"] {
-    color: violet;
+[title="Container portfolio"] {
+    color: darkviolet;
 }
 
-[title$="skils"] {
-    background-color: cadetblue;
+[title="Section skills"] {
+    color: blue;
 }
 
+[title="Container all"] {
+    color: brown;
+}
+
+[title="Ania"] {
+    color: deeppink;
+}
+[title="b"] {
+    color: yellow;
+}
+
+[title="nazwa"] {
+    color: cyan;
+}
+
+[title="IGA"] {
+    color: darkolivegreen;
+}
+
+[title=wioska] {
+    color: fuchsia;
+}
+
+[title="1"] {
+    color: darkblue;
+}
+[title="1a"] {
+    color: darkgreen;
+    
+}
