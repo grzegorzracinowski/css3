@@ -4,7 +4,7 @@
     padding: 10px;
     background-color: cadetblue;
     flex-basis: 20%;
-    height: 270px;
+/*    height: 270px;*/
 }
 
 .flex-item:nth-of-type(2n) {
@@ -16,5 +16,6 @@
 .flex-container {
     display: flex;
     align-items: flex-end;
-    align-content: center;
+    align-items: center;
+    align-items: stretch;
 }
