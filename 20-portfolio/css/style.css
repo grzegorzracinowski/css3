@@ -1,0 +1,139 @@
+html {
+    font-family: "Open Sans", arial;
+}
+
+.main-header {
+    position: relative;
+    height: 75vh;
+    background: url(../img/header.jpg) no-repeat;
+    background-size: cover;
+}
+
+.main-header-ctn {
+    color: #333;
+    text-align: center;
+    width: 90%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%)
+}
+
+h1 {
+    font-size: 7vw;
+    text-transform: uppercase;
+    margin: 20px;
+    color: #007bff;
+    font-weight: 600;
+    position: relative;
+}
+p {
+    color: #007bff;
+    
+    font-size: 3vw;
+    
+        
+}
+h1::before {
+    content: "";
+    position: absolute;
+    width: 11%;
+    height: 2px;
+    background-color: #007bff;
+    left: 50%;
+    bottom: -15px;
+    transform: translateX(-50%);
+
+}
+
+.main-header-ctn p {
+    font-size: 1.6rem;
+}
+
+.main-header-ctn p span {
+    display: inline-block;
+    margin: 0 6px;
+    color: #007bff;
+
+}
+.link {
+    display: inline-block;
+    padding: 10px 25px;
+    border: 1px solid #007bff;
+    font-size: 1.2rem;
+    color: #333;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all .3s;
+}
+
+.link:hover, .link:active {
+    background: #007bff;
+    color: #fff;
+}
+.main-nav {
+    background: #007bff;
+    padding: 10px 0;
+    text-align: center;
+}
+.main-nav a {
+    font-size: 1.2rem;
+    display: inline-block;
+    padding: 0 15px;
+    color: white;
+    text-decoration: none;
+    transition: all .3s;
+    text-transform: uppercase;
+}
+.main-nav a:hover, .main-nav a:active {
+    background-color: #fff;
+    color: #007bff;
+}
+
+.section {
+    padding: 100px 0;
+    text-align: center;
+}
+.section-title {
+    text-transform: uppercase;
+    position: relative;
+    font-size: 1.7rem;
+    font-weight: 400;
+    margin-bottom: 120px;
+    
+}
+
+.section-title::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -15px;
+    transform: translateX(-50%);
+    width: 4%;
+    height: 2px;
+    background: #007bff;
+}
+
+.about-img {
+    
+}
+
+
+
+
+.socjals a {
+    display: inline-block;
+    margin: 0 6px;
+    color: #007bff;
+    transition: all .3s;
+}
+
+.socjals {
+    margin: 60px 0;
+    font-size: 3rem;
+    
+}
+
+.socials a:hover, .socials a:active {
+    color: red;
+}
